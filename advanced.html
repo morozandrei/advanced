@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Selectors</title>
+    <style>
+        p a {
+            color: red;
+        }
+        p>small>a {
+            color: green;
+        }
+        p:first-child.references:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+    <div>
+    <p>Lorem, ipsum <a href="">dolor</a> sit amet consectetur adipisicing elit. Rem vero repellat mollitia libero architecto!</p>
+    <p>Laudantium facilis iusto, blanditiis ducimus libero vitae mollitia quas enim distinctio laboriosam natus sequi?</p>
+    <p>Aut ad quo qui voluptatibus sed <a href="">suscipit</a>, asperiores enim dignissimos alias! Aperiam, ut. Autem?</p>
+    <p>At quae dolorem, aliquid fuga dignissimos numquam totam atque voluptate fugit ut, molestias laudantium!</p>
+    </div>
+
+    <div>
+        <p class="references">
+            <small>
+                <a href="">Author Name</a>
+            </small>
+        </p>
+    </div>
+</body>
+
+</html>
